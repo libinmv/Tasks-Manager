@@ -1,5 +1,3 @@
-The specification for this program is as follows,
-
 ## Specification
 
 This is a command line program that lets you manage your tasks. Each task is associated with a priority, the priority is a number that denotes how important a task is, note that the value of the priority is inversed ( lower the value highest the priority).
