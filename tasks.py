@@ -1,5 +1,7 @@
+#!/usr/bin/env python3
+
 import sys
-from solve_me import TasksCommand
+from base import TasksCommand
 
 try:
     # Extract Arguments from Command Line

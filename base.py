@@ -1,3 +1,5 @@
+#!/usr/bin/env python3
+
 class TasksCommand:
     TASKS_FILE = "tasks.txt"
     COMPLETED_TASKS_FILE = "completed.txt"

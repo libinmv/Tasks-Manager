@@ -3,7 +3,7 @@ import os
 import unittest
 import unittest.mock
 
-from solve_me import TasksCommand
+from base import TasksCommand
 
 
 def reset_files():
