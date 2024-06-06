@@ -1,16 +1,12 @@
-In This milestone you will be implementing a basic command line program that lets you manage your tasks.
-
-The specification for this pogram is as follows,
+The specification for this program is as follows,
 
 ## Specification
 
-You are asked to build a command line program that lets you manage your tasks. Each task is associated with a priority, the priority is a number that denotes how important a task is, note that the value of the priority is inversed ( lower the value highest the priority).
+This is a command line program that lets you manage your tasks. Each task is associated with a priority, the priority is a number that denotes how important a task is, note that the value of the priority is inversed ( lower the value highest the priority).
 
-1. The incomplete version of the program can found in the file `solve_me.py`
+1. Priority can be any integer _greater than_ or _equal to_ 1. 1 being the highest priority
 
-2. Priority can be any integer _greater than_ or _equal to_ 1. 1 being the highest priority
-
-3. Two tasks cannot have the same priority, If a new task is added with an existing priority, the priority of the existing task will be increased by 1.
+2. Two tasks cannot have the same priority, If a new task is added with an existing priority, the priority of the existing task will be increased by 1.
 
 ## Usage
 
@@ -33,7 +29,7 @@ $ python tasks.py report               # Statistics
 
 Use the ls command to see all the items that are not yet complete, in ascending order of priority.
 
-Every item should be printed on a new line. with the following format
+Every item will be printed on a new line. with the following format
 
 ```
 [index] [task] [priority]
@@ -105,14 +101,3 @@ Completed : 3
 2. another completed task
 3. yet another completed task
 ```
-
-## Testing
-
-Run the test.py file to test if your submission is correct.
-The test.py file will run your program and compare the output with the expected output. Any errors in your implementation will be displayed.
-
-## Submission
-
-You can find the incomplete code and the instructions to complete it in the following GitHub repository. ( Fork this repo to get started )
-
-https://github.com/DjangoForAll/GDC-Level-2-Milestone
